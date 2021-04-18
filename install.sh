@@ -34,7 +34,7 @@ cd daq-2.0.7
 # auto reconfigure DAQ before running the config
 autoreconf -f -i
 # run the configuration script then compile the program
-./configure && make && sudo make install && cd ..
+./configure --disable-dependency-tracking && make && sudo make install && cd ..
 # extract the snort source and get into it
 tar -zxvf snort-2.9.17.1.tar.gz
 cd snort-2.9.17.1
