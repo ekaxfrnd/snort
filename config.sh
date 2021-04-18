@@ -16,5 +16,5 @@ sudo chown -R snort:snort /usr/local/lib/snort_dynamicrules
 sudo touch /etc/snort/rules/white_list.rules
 sudo touch /etc/snort/rules/black_list.rules
 sudo touch /etc/snort/rules/local.rules
-sudo cp snort-2.9.17.1/etc/*.conf*
-sudo cp snort-2.9.17.1/etc/*.map
+sudo cp snort-2.9.17.1/etc/*.conf* /etc/snort
+sudo cp snort-2.9.17.1/etc/*.map /etc/snort
